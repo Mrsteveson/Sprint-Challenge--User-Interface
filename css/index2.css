@@ -123,12 +123,13 @@ header nav a {
 
 .paragraphs button {
     margin: 25px 0 0 0;
-    width: 100px;
+    width: 125px;
     background: white;
-    height: 25px;
+    height: 40px;
     font-size: 14px;
-    border: 1px double black;
-    border-radius: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 .paragraphs button:hover {
