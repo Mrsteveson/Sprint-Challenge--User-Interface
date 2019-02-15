@@ -82,6 +82,8 @@ header {
 
 header img {
     order: -1;
+    align-items: center;
+    padding-top: 5px;
 }
 
 header nav {
@@ -100,13 +102,22 @@ header nav a {
 }
 
 .about-top-section {
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dashed black;
     padding: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .paragraphs {
     margin: 20px 0;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dashed black;
+    width: 45%;
+    margin: 2% 0;
+    padding: 15px 0;
     /* animation: fadein 5s; */
 }
 
@@ -125,8 +136,13 @@ header nav a {
     color: red;
 }
 
+.content-pics {
+    margin-bottom: 20px;
+}
+
 .bottom-paragraph {
-    
+    margin: 25px 0;
+    padding: 25px;
 }
 
 footer {
