@@ -64,8 +64,89 @@ h1, h2, h3, h4, h5 {
 
 /* code starts here patty */
 
+p {
+    line-height: 1.4;
+}
 
+.container {
+    width: 800px;
+    margin: 0 auto;
+    font-weight: bold;
+}
 
+header {
+    display: flex;
+    align-items: baseline;
+    margin: 20px 0;
+}
+
+header img {
+    order: -1;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 25px;
+    padding: 20px;
+    width: 700px;
+}
+
+header nav a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.about-top-section {
+    border-bottom: 1px dotted black;
+    padding: 20px;
+}
+
+.paragraphs {
+    margin: 20px 0;
+    border-bottom: 1px dotted black;
+    /* animation: fadein 5s; */
+}
+
+.paragraphs button {
+    margin: 25px 0 0 0;
+    width: 100px;
+    background: white;
+    height: 25px;
+    font-size: 14px;
+    border: 1px double black;
+    border-radius: 5px;
+}
+
+.paragraphs button:hover {
+    background: black;
+    color: red;
+}
+
+.bottom-paragraph {
+    
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
 
 /* animation playground */
 
