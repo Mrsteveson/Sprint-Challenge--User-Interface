@@ -79,6 +79,7 @@ header {
     align-items: baseline;
     margin: 20px 0;
 }
+/* play with align-items:center; to try and get the header to line up better */
 
 header img {
     order: -1;
