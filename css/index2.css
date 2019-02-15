@@ -122,11 +122,6 @@ header nav a {
     animation: fadein 2s;
 }
 
-@keyframes fadein {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
 .paragraphs button {
     margin: 25px 0 0 0;
     width: 125px;
