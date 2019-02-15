@@ -69,6 +69,36 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+    margin: 20px 0;
+}
+
+header img {
+    order: -1;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 25px;
+    padding: 20px;
+    width: 700px;
+}
+
+header nav a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.header-top-image {
+    margin-bottom: 25px
 }
 
 .top-content {
