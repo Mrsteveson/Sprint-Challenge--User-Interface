@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML gives meaning to the various elements of the webpage which allows you to add styles to those elements in a manageable way. It helps the browser understand what is going on with the    content of the webpage, allowing developers to display their content in a variety of ways.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display: block; will take up all the white space within the parent element; while display: inline; only takes up as much space as its content requires. Display: inline; also allows for elements to be nested inside of other elements without blowing up the page.
 
 3. What are the 4 areas of the box model?
 
+Margin - the white space around the border.
+Border - the element that separates the white space of the margin and the white space of the padding.
+Padding - the white space surrounding the content that is within the border.
+Content - the meat and potatoes of your page: paragraphs, images etc, which is within the padding at the center of the box-model.
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Align-items: center; would affect how elements are displayed along the cross axis which I believe could also be considered the Y-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is immensely valuable to developers for a variety of reasons. Firstly, it keeps track of all of you and your teams code as it is worked on.Secondly, that code is then available to anyone on that team, or even just everyone in general in it is published to the public.These two points alone make collaboration between developers streamlined in a way that has a huge positive impact on efficiency, and in the end makes the lives of developers much easier.	Git also works alongside GitHub which provides a "home-base," for code and presents it in an easy to digest interface.
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
